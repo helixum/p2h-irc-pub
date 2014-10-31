@@ -13,5 +13,6 @@ echo gevonden versie is `cat $HOME/Unreal3.2/version`
 echo maak backup van uw bestaande conf files
 mkdir $PWD/backup
 cp $PWD/Unreal3.2/*.conf $PWD/backup
-echo 'date' Backup *.conf files to $PWD/backup >> install.log
-else echo No version file found in $PWD; exit ;fi 
+echo 'date' Backup *.conf files to $PWD/backup >> install.log; fi
+else 
+echo No version file found in $PWD; exit ;fi 
