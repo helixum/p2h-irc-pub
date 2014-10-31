@@ -1,9 +1,13 @@
 #!/usr/bin/bash
 . $PWD/options.cfg
+echo Check.sh version $checkversion
+echo check maps
 echo $setupdir
+if test -d $setupdir; then echo ben je blind? is al aanwezig ; else echo eh oke, niet aanwezig dus; fi
 echo $Unrealdir
 if test -d $Unrealdir; then
-echo backup files for later useage
+echo succes $Unrealdir is aanwezig
+echo backup files voor later gebruik
 if test -d $setupdir/backup; then
 cp $Unrealdir/*.conf $setupdir/backup
 cp $Unrealdir/ircd.* $setupdir/backup; else 
