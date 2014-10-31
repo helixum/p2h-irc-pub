@@ -1,4 +1,4 @@
 #!/usr/bin/bash
-. /options.cfg
+. $PWD/options.cfg
 echo $setupdir
 echo $Unrealdir
