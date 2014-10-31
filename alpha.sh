@@ -12,7 +12,6 @@ echo Laatste en meest recente versie van UnrealIRCD is 3.2.10.4
 echo gevonden versie is `cat $HOME/Unreal3.2/version`
 echo maak backup van uw bestaande conf files
 mkdir $PWD/backup
-cp $PWD/Unreal3.2/*.conf $PWD/backup
+cp $PWD/Unreal3.2/*.conf $PWD/backup;fi
 echo 'date' Backup *.conf files to $PWD/backup >> install.log; fi
-else 
-echo No version file found in $PWD; exit ;fi 
+else echo No version file found in $PWD; exit ;fi 
