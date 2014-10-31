@@ -19,4 +19,5 @@ Next staps is now to start with the Unrealsetup.sh file but first we testing the
 Server repos works
 Adding alpha.sh 
 Adding version
-all changes will be now report in changelog
+Remove all Tar.gz files
+adding version files to Unreal3.2 and repos root map
