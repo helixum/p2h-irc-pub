@@ -23,6 +23,7 @@ Remove all Tar.gz files
 adding version files to Unreal3.2 and repos root map
 adding options.cfg
 fix typemismatch in alpha.sh and include the options.cfg into alpha.sh
-Rename version to version-backup
-added new version 0.0.0 to 0.0.1
-rename alpha.sh to checkunreal.sh 
+change version 0.0.0 to 0.0.1
+rename alpha.sh to check.sh 
+entering develop mode
+
