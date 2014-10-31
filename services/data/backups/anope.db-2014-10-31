@@ -1,0 +1,129 @@
+OBJECT BotInfo
+DATA nick BotServ
+DATA user services
+DATA host services.power2host.eu
+DATA realname Bot Service
+DATA created 1407786539
+DATA oper_only 0
+END
+OBJECT BotInfo
+DATA nick ChanServ
+DATA user services
+DATA host services.localhost.net
+DATA realname Channel Registration Service
+DATA created 1407786539
+DATA oper_only 0
+END
+OBJECT BotInfo
+DATA nick Global
+DATA user services
+DATA host services.power2host.eu
+DATA realname Global Noticer
+DATA created 1407786539
+DATA oper_only 0
+END
+OBJECT BotInfo
+DATA nick HostServ
+DATA user services
+DATA host services.power2host.eu
+DATA realname vHost Service
+DATA created 1407786539
+DATA oper_only 0
+END
+OBJECT BotInfo
+DATA nick MemoServ
+DATA user services
+DATA host services.localhost.net
+DATA realname Memo Service
+DATA created 1407786539
+DATA oper_only 0
+END
+OBJECT BotInfo
+DATA nick NickServ
+DATA user services
+DATA host services.localhost.net
+DATA realname Nickname Registration Service
+DATA created 1407786539
+DATA oper_only 0
+END
+OBJECT BotInfo
+DATA nick OperServ
+DATA user services
+DATA host services.localhost.net
+DATA realname Operator Service
+DATA created 1407786539
+DATA oper_only 0
+END
+OBJECT Stats
+DATA maxusercnt 11
+DATA maxusertime 1414151467
+END
+OBJECT Exception
+DATA mask 77-172-147-217.ip.telfort.nl
+DATA limit 0
+DATA who kulin
+DATA reason admin host
+DATA time 1407793210
+DATA expires 0
+END
+OBJECT ForbidData
+DATA mask Hitler
+DATA creator Helixum
+DATA reason not allow to use this nickname
+DATA created 1407960561
+DATA expires 0
+DATA type 1
+END
+OBJECT ForbidData
+DATA mask admin
+DATA creator Helixum
+DATA reason Only Use in Words and briefs
+DATA created 1407960589
+DATA expires 0
+DATA type 1
+END
+OBJECT SeenInfo
+DATA nick Helixum
+DATA vhost ~helixum@p2h-F074CD52.ip.telfort.nl
+DATA type 5
+DATA nick2 
+DATA channel 
+DATA message Ping timeout: 188 seconds
+DATA last 1414631245
+END
+OBJECT SeenInfo
+DATA nick Kilon
+DATA vhost ~helixum@p2h-F074CD52.ip.telfort.nl
+DATA type 1
+DATA nick2 Helixum
+DATA channel 
+DATA message 
+DATA last 1413893569
+END
+OBJECT SeenInfo
+DATA nick kilon-pff
+DATA vhost ~helixum@p2h-F074CD52.ip.telfort.nl
+DATA type 5
+DATA nick2 
+DATA channel 
+DATA message Ping timeout: 186 seconds
+DATA last 1414162250
+END
+OBJECT SeenInfo
+DATA nick bla
+DATA vhost ~helixum@p2h-F074CD52.ip.telfort.nl
+DATA type 1
+DATA nick2 vpn
+DATA channel 
+DATA message 
+DATA last 1414347705
+END
+OBJECT SeenInfo
+DATA nick vpn
+DATA vhost ~helixum@p2h-F074CD52.ip.telfort.nl
+DATA type 5
+DATA nick2 
+DATA channel 
+DATA message Quit: 
+DATA last 1414347715
+END
