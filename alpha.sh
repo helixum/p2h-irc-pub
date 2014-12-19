@@ -1,5 +1,6 @@
 #!/usr/bin/bash
-. $PWD/options.cfg
+if test -e /home/$USER/p2h-irc-pub/options.cfg; then 
+. /home/$USER/p2h-irc-pub/options.cfg
 echo Check.sh version $checkversion
 echo check maps
 echo $setupdir
@@ -18,3 +19,5 @@ cp $Unrealdir/*.conf $setupdir/backup
 cp $Unrealdir/ircd.* $setupdir/backup; fi 
 echo Backup done; else 
 echo $Unrealdir not found can not make backups;fi 
+else echo Configuratie file niet gevonden kan niet doorgaan met installeren; fi
+
